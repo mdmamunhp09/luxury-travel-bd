@@ -11,8 +11,8 @@ main {
     margin: 0 auto;
 }
 
-.title-icon{
-    color:#FF5400
+.title-icon {
+    color: #FF5400
 }
 
 .travel {
@@ -53,6 +53,7 @@ main {
 section {
     margin-bottom: 100px;
 }
+
 /* common style section end  */
 
 /* header section start  */
@@ -108,6 +109,7 @@ section {
 #first-child {
     color: red;
 }
+
 /* nav section end  */
 
 /* banner section start  */
@@ -180,6 +182,7 @@ select {
     font-weight: 700;
     margin-top: 0px;
 }
+
 /* banner section end  */
 /* header section end  */
 
@@ -199,6 +202,7 @@ select {
     margin-top: 24px;
 
 }
+
 /* .popular-tour section end  */
 
 
@@ -223,7 +227,7 @@ select {
     font-weight: 400;
     line-height: 26px;
     margin-top: 24px;
-    padding:0 120px;
+    padding: 0 120px;
 }
 
 .img-text {
@@ -266,7 +270,7 @@ select {
     margin-bottom: 10px;
 }
 
-.card-description{
+.card-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
@@ -276,6 +280,7 @@ select {
     margin-top: 24px;
 
 }
+
 .card-row-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -290,7 +295,7 @@ select {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-   margin-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -310,9 +315,10 @@ select {
     padding: 32px;
 
 }
-.card-2{
+
+.card-2 {
     width: 50%;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 .card-description {
@@ -411,6 +417,7 @@ select {
     color: tomato;
 
 }
+
 /* cruises service end  */
 
 /* subscribe-container start */
@@ -424,7 +431,7 @@ select {
 .form {
     border-radius: 16px;
     border: 1px solid #FF5400;
-    padding: 40px;
+    padding: 35px;
     max-width: 50%;
 }
 
@@ -469,6 +476,8 @@ button {
     position: relative;
 }
 
+
+
 .text-subscribe-title {
     color: #FFF;
     font-family: Mulish;
@@ -487,6 +496,7 @@ button {
     font-weight: 800;
     line-height: normal;
 }
+
 /* subscribe section end  */
 
 /* footer section start  */
@@ -539,6 +549,7 @@ hr {
     border: 0.5px solid rgba(19, 19, 24, 0.10);
 
 }
+
 /* footer section end  */
 
 
@@ -620,9 +631,10 @@ hr {
     }
 
     /* popular tour start  */
-    .popular-tour{
+    .popular-tour {
         margin-bottom: 5px;
     }
+
     .popular-tour-content {
         padding-left: 20px;
     }
@@ -632,7 +644,7 @@ hr {
     }
 
     /* choose .destination section start  */
-    .destination-description{
+    .destination-description {
         padding: 5px;
     }
 
@@ -640,7 +652,7 @@ hr {
         padding: 0px 20px;
     }
 
-    .choose-us-container{
+    .choose-us-container {
         margin-top: 5px;
         padding-top: 5px;
     }
@@ -666,10 +678,11 @@ hr {
         text-align: center;
     }
 
-     /* cruises section start  */
-     .cruises-container{
+    /* cruises section start  */
+    .cruises-container {
         margin-bottom: 0px;
     }
+
     .cruises {
         flex-direction: column;
     }
@@ -685,6 +698,36 @@ hr {
         margin-top: 10px;
     }
 
+    .text-subscribe {
+        border-radius: 16px;
+        background: #FF5400;
+        width: 324px;
+        height: 120px;
+        transform: rotate(-19.628deg);
+        position: absolute;
+        bottom: 35px;
+        right: 8px;
+        text-align: center;
+    }
+
+    .text-subscribe-title {
+       
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    
+    .text-subscribe-off {
+      
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .text-subscribe {
+        width: 214.023px;
+        height: 79.268px;
+    }
+
     .form {
         max-width: 70%;
         margin: 0 auto;
@@ -698,17 +741,20 @@ hr {
         width: 100%;
     }
 
-   /* footer section start  */
-   .footer-title{
-    margin-top: 15px;
-   }
-   .footer-description{
-    padding: 5px;
-   }
+    /* footer section start  */
+    .footer-title {
+        margin-top: 15px;
+    }
+
+    .footer-description {
+        padding: 5px;
+    }
+
     footer {
         padding: 5px;
     }
-    .cruises-card{
+
+    .cruises-card {
         width: 100%;
         padding: 0px;
     }
@@ -722,11 +768,13 @@ hr {
         right: 0px;
         top: 0px;
     }
+
     .chose>input,
     button,
-    select{
+    select {
         height: 40px;
     }
+
     .nav>.nav-btn>label {
         display: inline-block;
         width: 50px;
